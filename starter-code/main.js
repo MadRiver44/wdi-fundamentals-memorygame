@@ -16,9 +16,9 @@ cards.length = 4;
 
 function createCards(){
 	for(let i = 0; i < cards.length; i++){
-		let newCards = document.createElement('div');
-		newCards.className = 'card';
-		table.appendChild("newCards");
+		let newCard = document.createElement('div');
+		newCard.className = 'card';
+		table.appendChild(newCard);
 	}
 }
 
