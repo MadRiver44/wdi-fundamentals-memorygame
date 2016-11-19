@@ -74,10 +74,10 @@ function isTwoCards(){
 isMatch is called as a test to compare the two cards.
 */
 
-function isMatch(){
-	if (cards[0] === cards[1] || cards[2] === cards[3]){
+function isMatch(cards){
+	if (cards[0] === cards[1]){
 		alert("You found a match!");
-	}else if (cards[0] !== cards[1] || cards[2] !== cards[3]){
+	}else {
 		alert ("Sorry, try again.");
 	}
 
